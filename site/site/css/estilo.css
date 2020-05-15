@@ -19,63 +19,8 @@ h1, h2, h3{
 p{
 	font-family: "Dancing+Script",Handlee, cursive;
 
-.container{
-width: 100%;
 
 }
-
-}
-/* Header */
-header{
-	background-image: url('../img/fundo.jpg');
-	display: flex;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	padding: 30px;
-
-}
-
-
-
-
-header p{
-	margin-bottom: 2em;
-	font-size: 1.7em;
-
-
-}
-#Sobre{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	background-color: #4169E1;
-
-}
-#sobre h2{
-	margin-top: 20px;
-	font-size: 2em;
-}
-.foto img{
-	width: 60%;
-}
-
-.foto{
-	float: left;
-	width: 50%;
-}
-
-.texto{
-	float: right;
-	width: 50%;
-}
-
-
-
 /* Cabeçalho ou barra de navegação */
 
 .logo img{
@@ -131,29 +76,4 @@ nav ul{
 
 
 }
-
-header{
-	
-	height: 60vh;
-	justify-content: center;
-
-}
-#Sobre {
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: center;
-	height: 90vh;
-	justify-content: center;
-	min-height: 80vh;
-}
-#Sobre h2{
-	text-align: center;
-	width: 100%;
-}
-#Sobre div {
-	flex-grow: 1;
-	flex-basis: 300px;
-	padding: 0 10px;
-}
-
 }
